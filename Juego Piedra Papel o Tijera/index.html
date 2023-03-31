@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="sweetalert2.min.js"></script>
+    <title>Piedra Papel O Tijera</title>
+</head>
+
+<body>
+    <section class="principal">
+        <div class="puntajes">
+            <div class="puntaje-usuario">
+                <h2>USUARIO</h2>
+                <p>0</p>
+            </div>
+            <div class="puntuaje-computador">
+                <h2>COMPUTADOR</h2>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="tablero">
+            <div class="manos">
+                <img class="mano-usuario" src="assets/piedra_ada.png" alt="Opcion a elegir por usuario">
+                <img class="mano-computador" src="assets/piedra_computadora.png" alt="Opcion a elegir por computador">
+            </div>
+            <h2 class="resultado">Seleccione una opcion</h2>
+            <div class="opciones">
+                <button class="piedra">
+                    <img class="mano-usuario" src="assets/piedra_ada.png" alt="Elegir piedra">
+                </button>
+                <button class="papel">
+                    <img src="assets/papel_ada.png" alt="Elegir papel">
+                </button>
+                <button class="tijera">
+                    <img src="assets/tijera_ada.png" alt="Elegir tijera">
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="app.js"></script>
+</body>
+
+<footer>&copysr; Created By Juan Esteban Benavides</footer>
+</html>

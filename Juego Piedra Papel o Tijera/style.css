@@ -46,6 +46,9 @@ font-size: 40px;
     border-color: red;
     border-radius: 50%;
     cursor: pointer;
+    -webkit-transition: all .3s;
+    -o-transition:  all .3s;
+    transition:  all .3s;
 }
 
 .tablero button img{
@@ -128,7 +131,10 @@ font-size: 40px;
       transform: translateY(0px);
     }
   }
-  
+
+  .jugando .manos img{
+    animation: shake 2s ease;
+  }
 
 footer{
     background-color: rgb(218, 13, 47);
